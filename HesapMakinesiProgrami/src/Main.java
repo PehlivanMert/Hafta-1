@@ -35,7 +35,5 @@ public class Main {
         } else {                                                             // Hatalı tuşlama yapılırsa uyarı measjı yazdırıyoruz
             System.out.println("Hatalı İşlem Yaptınız!");
         }
-
-
     }
 }
