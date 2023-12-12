@@ -3,8 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Değişkenleri oluşturuyoruz
-        int mat,fizik,turkce,kimya,muzik;
-        double avarage;
+        int mat,fizik,turkce,kimya,muzik,avarage;
 
         //Scanner sınıfından bir değişken oluşturuyoruz
         Scanner input = new Scanner(System.in);
