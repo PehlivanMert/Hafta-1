@@ -1,18 +1,20 @@
-/*  Meyveler ve KG Fiyatları
-    Armut : 22,14 TL
-    Elma : 8,67 TL
-    Domates : 11,11 TL
-    Muz: 19,95 TL
-    Patlıcan : 13,50 TL
-    Kivi : 18,25 TL */
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
         //Değişkenleri oluşturuyoruz
         int armut,elma,domates,muz,patlican,kivi;
-        double tutar;
+        double armutFiyat,elmaFiyat,domatesFiyat,muzFiyat,patlicanFiyat,kiviFiyat,tutar;
+
+        //fiyatları oluşturuyoruz
+
+        armutFiyat = 22.14;
+        elmaFiyat = 8.67;
+        domatesFiyat = 11.11;
+        muzFiyat = 19.95;
+        patlicanFiyat = 13.50;
+        kiviFiyat = 18.25;
+
 
         //Scanner sınıfı oluşturuyoruz
         Scanner input = new Scanner(System.in);
@@ -38,7 +40,7 @@ public class Main {
 
         //Tutarı hesaplayıp çıktısını ekrana yazdırıyoruz.
 
-        tutar = (armut * 22.14) + (elma * 8.67) + (domates * 11.11) + (muz * 19.95) + (patlican * 13.50) + (kivi * 18.25);
+        tutar = (armut * armutFiyat) + (elma * elmaFiyat) + (domates * domatesFiyat) + (muz * muzFiyat) + (patlican * patlicanFiyat) + (kivi * kiviFiyat);
 
         System.out.println("Toplam tutar : " + tutar);
 
