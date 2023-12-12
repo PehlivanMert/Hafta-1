@@ -22,10 +22,5 @@ public class Main {
         //Sonucu ekrana yazdıralım.
 
         System.out.println("Sonuç : " + sonuc);
-
-
-
-
-
     }
 }
