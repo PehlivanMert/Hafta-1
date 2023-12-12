@@ -1,17 +1,42 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/*  Meyveler ve KG Fiyatları
+    Armut : 22,14 TL
+    Elma : 8,67 TL
+    Domates : 11,11 TL
+    Muz: 19,95 TL
+    Patlıcan : 13,50 TL
+    Kivi : 18,25 TL */
+
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int armut,elma,domates,muz,patlıcan,kivi;
+        double tutar;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Scanner input = new Scanner(System.in);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        System.out.print("Armut Kaç Kilo ? :");
+        armut = input.nextInt();
+
+        System.out.print("Elma Kaç Kilo ? :");
+        elma = input.nextInt();
+
+        System.out.print("Domates Kaç Kilo ? :");
+        domates = input.nextInt();
+
+        System.out.print("Muz Kaç Kilo ? :");
+        muz = input.nextInt();
+
+        System.out.print("Patlıcan Kaç Kilo ? :");
+        patlıcan = input.nextInt();
+
+        System.out.print("Kivi Kaç Kilo ? :");
+        kivi = input.nextInt();
+
+        tutar = (armut * 22.14) + (elma * 8.67) + (domates * 11.11) + (muz * 19.95) + (patlıcan * 13.50) + (kivi * 18.25);
+
+        System.out.println("Toplam tutar : " + tutar);
+
+
+
     }
 }
