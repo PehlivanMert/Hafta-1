@@ -42,7 +42,7 @@ public class Main {
 
         tutar = (armut * armutFiyat) + (elma * elmaFiyat) + (domates * domatesFiyat) + (muz * muzFiyat) + (patlican * patlicanFiyat) + (kivi * kiviFiyat);
 
-        System.out.println("Toplam tutar : " + tutar);
+        System.out.println("Toplam tutar : " + tutar + "TL");
 
 
 
