@@ -9,11 +9,15 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+
+        //Değişkenleri oluşturuyoruz
         int armut,elma,domates,muz,patlıcan,kivi;
         double tutar;
 
+        //Scanner sınıfı oluşturuyoruz
         Scanner input = new Scanner(System.in);
 
+        //Kullanıcıdan kaç kilo ürün girdisini alıyoruz
         System.out.print("Armut Kaç Kilo ? :");
         armut = input.nextInt();
 
@@ -31,6 +35,8 @@ public class Main {
 
         System.out.print("Kivi Kaç Kilo ? :");
         kivi = input.nextInt();
+
+        //Tutarı hesaplayıp çıktısını ekrana yazdırıyoruz.
 
         tutar = (armut * 22.14) + (elma * 8.67) + (domates * 11.11) + (muz * 19.95) + (patlıcan * 13.50) + (kivi * 18.25);
 
