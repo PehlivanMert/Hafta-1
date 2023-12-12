@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         //Değişkenleri oluşturuyoruz
-        int armut,elma,domates,muz,patlıcan,kivi;
+        int armut,elma,domates,muz,patlican,kivi;
         double tutar;
 
         //Scanner sınıfı oluşturuyoruz
@@ -31,14 +31,14 @@ public class Main {
         muz = input.nextInt();
 
         System.out.print("Patlıcan Kaç Kilo ? :");
-        patlıcan = input.nextInt();
+        patlican = input.nextInt();
 
         System.out.print("Kivi Kaç Kilo ? :");
         kivi = input.nextInt();
 
         //Tutarı hesaplayıp çıktısını ekrana yazdırıyoruz.
 
-        tutar = (armut * 22.14) + (elma * 8.67) + (domates * 11.11) + (muz * 19.95) + (patlıcan * 13.50) + (kivi * 18.25);
+        tutar = (armut * 22.14) + (elma * 8.67) + (domates * 11.11) + (muz * 19.95) + (patlican * 13.50) + (kivi * 18.25);
 
         System.out.println("Toplam tutar : " + tutar);
 
