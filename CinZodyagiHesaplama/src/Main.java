@@ -4,12 +4,12 @@ public class Main {
 
         //Değişkenleri oluşturup kullanıcıdan girdiyi alıyoruz
         int dogumyili;
-        Scanner girdi= new Scanner(System.in);
+        Scanner girdi = new Scanner(System.in);
         System.out.print("Doğum yılınızı giriniz: ");
         dogumyili = girdi.nextInt();
 
         //Doğum yılının 12'ye bölümünden kalan rakama göre burcu bulan koşulu tanımlıyoruz
-        if(dogumyili>0) {
+        if (dogumyili > 0) {
 
             if (dogumyili % 12 == 0) {
                 System.out.println("Çin Zodyağı Burcunuz: Maymun");
