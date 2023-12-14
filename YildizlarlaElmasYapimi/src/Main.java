@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int n,yildiz,bosluk;
@@ -17,5 +18,21 @@ public class Main {
             }
             System.out.println();
         }
+
+        for (int i = n-1 ; i >= 1 ; i-- ){
+
+            for(bosluk = 1 ; bosluk <= (n - i) ; bosluk++){
+                System.out.print(" ");
+            }
+            for(yildiz = 1 ; yildiz <= ((2 * i)-1); yildiz++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
+
+
+
+
+
