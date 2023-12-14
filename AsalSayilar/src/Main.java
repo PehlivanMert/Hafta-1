@@ -10,7 +10,7 @@ public class Main {
                 }
             }                                        //Eğer sayı değişkeni 0'dan farklıysa asal sayı değildir.
             if (sayi == 0) {
-                System.out.println(i);
+                System.out.print(i + " - ");
             }
         }
     }
