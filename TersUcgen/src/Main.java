@@ -9,11 +9,11 @@ public class Main {
         n = input.nextInt();
 
         //Yıldızlarla ters üçgen yapmak için bir algoritma kurup for döngüsüyle boşluk ve yıldızları oluşturuyoruz
-        for (int i = n-1 ; i >= 1 ; i-- ){
-            for(blank = 1 ; blank <= (n - i) ; blank++){
+        for (int i = 0 ; i <= n ; i++ ){
+            for(blank = 0 ; blank < i ; blank++){
                 System.out.print(" ");
             }
-            for(star = 1 ; star <= ((2 * i)-1); star++) {
+            for(star = 0 ; star <= (2 * (n- i)); star++) {
                 System.out.print("*");
             }
             System.out.println();
