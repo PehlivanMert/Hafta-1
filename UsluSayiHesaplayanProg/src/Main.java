@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
-        int n,p;
+        int base,power;
         int total = 1;
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Taban sayısını giriniz : ");
-        n = inp.nextInt();
+        base = inp.nextInt();
         System.out.print("Üssü giriniz : ");
-        p = inp.nextInt();
+        power = inp.nextInt();
 
-        for(int i = 1 ; i <= p ; i++ ) {
-            total *= n;
+        for(int i = 1 ; i <= power ; i++ ) {
+            total *= base;
         } System.out.println(total);
     }
 }
