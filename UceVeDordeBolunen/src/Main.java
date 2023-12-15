@@ -12,7 +12,7 @@ public class Main {
 
         /* Girdiğimiz değere kadar olan 3'e Ve 4'e bölünen sayıları toplayan
         sonrasında bu koşula uyan kaç sayı olduğunu bulmamızı sağlayan bir sayaç oluşturuyoruz. */
-        for (i = 0 ; i < n1 ; i++) {
+        for (i = 0 ; i <= n1 ; i++) {
             if (i % 3 == 0 && i % 4 == 0) {
                 sum = sum + i;
                 counter++;
