@@ -42,3 +42,85 @@ public class Main {
         }
 
 */
+/* public class Main {
+    static void show()
+    {
+        System.out.println("Show metodu..");
+
+    }
+    public static void main(String[] args)
+    {
+        show();
+    }
+}
+
+*/
+/*public class Main {
+    static int info() {
+        System.out.println("Patika");
+        return 0;
+    }
+
+    static void info(int a) {
+        System.out.println("Dev");
+    }
+
+    public static void main(String[] args) {
+        info(5);
+    }
+}
+
+ */
+/*
+public class Main {
+    static int IlkMethod(int c, int d) {
+        return c + d;
+    }
+
+    //overloading
+
+    static int IlkMethod() {
+        return 5;
+    }
+
+    static void IlkMethod(String b) {
+        System.out.println("Seni Yerler Yerler");
+    }
+
+    static void DonusYok(int a, double b) {
+
+        System.out.println("Dönülmez Akşamın Ufkundayım");
+    }
+
+    public static void main(String[] args) {
+        System.out.println(IlkMethod(5,8)); //2 return
+        System.out.println(IlkMethod());
+        IlkMethod("Mert");                        //2 void
+        DonusYok(7,10.0);
+
+    }
+}
+
+
+ */
+
+/* public class Main {
+    static void number(int x, int z) {
+        int y = 2;
+        x = x * y;
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        int y = 3;
+        int z = 2;
+        if (y != z) {
+            int x = 20;
+        }
+        int x = 50;
+        number(x, z);
+    }
+}
+
+
+ */
+

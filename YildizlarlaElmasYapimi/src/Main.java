@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int n,yildiz,bosluk;
+        int n,star,blank;
         Scanner input = new Scanner(System.in);
 
         System.out.print("Basamak sayısını giriniz : ");
@@ -10,10 +10,10 @@ public class Main {
 
         for (int i = 1 ; i <= n ; i++ ){
 
-            for(bosluk = 1 ; bosluk <= (n - i) ; bosluk++){
+            for(blank = 1 ; blank <= (n - i) ; blank++){
                 System.out.print(" ");
             }
-            for(yildiz = 1 ; yildiz <= ((2 * i)-1); yildiz++) {
+            for(star = 1 ; star <= ((2 * i)-1); star++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -21,10 +21,10 @@ public class Main {
 
         for (int i = n-1 ; i >= 1 ; i-- ){
 
-            for(bosluk = 1 ; bosluk <= (n - i) ; bosluk++){
+            for(blank = 1 ; blank <= (n - i) ; blank++){
                 System.out.print(" ");
             }
-            for(yildiz = 1 ; yildiz <= ((2 * i)-1); yildiz++) {
+            for(star = 1 ; star <= ((2 * i)-1); star++) {
                 System.out.print("*");
             }
             System.out.println();
